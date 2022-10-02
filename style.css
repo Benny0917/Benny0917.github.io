@@ -54,5 +54,10 @@ body{
 }
 
 .footer{
-   margin:0rem 100rem;
+    position:absolute; 
+    top: 30%;
+}
+.picture{
+    position:absolute; 
+    left:40%;
 }
