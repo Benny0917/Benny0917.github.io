@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
         <meta charset="utf-8">
         <title>游立宇的自我介紹</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +24,7 @@
             </nav>
             <main>
                 <div>大家好，我是游立宇來自輔仁大學醫學資訊暨創新應用學士學位學程，本人比較怕生，但還是希望能跟大家能跟大家慢慢變熟</div>
-            <div>未來的規劃，希望自己能順順利利的畢業，並且找到一份好的工作，或是能考上好的研究所</div>
+                <div>未來的規劃，希望自己能順順利利的畢業，並且找到一份好的工作，或是能考上好的研究所</div>
             </main>
     
             <div class="picture">
@@ -42,5 +43,19 @@
             <div class="main-content"></div>
             <footer class="footer"></footer>
         </div>
-        
+        <div class="change">
+            <button>Bang</button>
+        </div>
     </body>
+
+    <script>
+        $(document).ready(function(){
+           $(".logo").css("color","blue");
+           $("button").click(function(){
+            $("body").toggleClass("black")
+            
+                
+           
+    });
+});
+    </script>
